@@ -1,51 +1,48 @@
 # 🎵 Hand Gesture Rhythm Game (OpenCV + MediaPipe)
 
-A real-time rhythm game built using OpenCV and MediaPipe where players hit targets using hand gestures synchronized with music.
+A real-time rhythm game built using OpenCV and MediaPipe where players hit beat-synced targets using hand gestures.
 
-Supports two gameplay modes:
-- 👆 Tap Mode (Index finger touch)
-- 👊 Punch Mode (Forward hand motion)
+Currently supports:
 
----
-
-## 🚀 Features
-
-- Real-time hand tracking using MediaPipe
-- Beat-synchronized target spawning
-- Adjustable BPM support
-- First-beat offset calibration
-- Tap and Punch gesture modes
-- Non-overlapping smart spawn system
-- Burst animation effects
-- Miss sound feedback
-- Optimized for performance
+👆 Tap Mode (Index Finger)
 
 ---
 
-## 🧠 Tech Stack
+## 🎮 How It Works
+
+1. Launch the game
+2. Tap the **START** button on screen
+3. 3-2-1 countdown begins
+4. Music starts
+5. Targets spawn on beat
+6. Tap targets with index finger to score
+
+---
+
+## ⚙ Features
+
+- Real-time hand tracking
+- Beat-synchronized spawning
+- Start button with CV interaction
+- Countdown before gameplay
+- Red penalty effect on miss
+- Smart spawn (no overlapping)
+- Optimized performance
+- Score tracking
+
+---
+
+## 🛠 Tech Stack
 
 - Python
 - OpenCV
 - MediaPipe
-- Pygame (audio engine)
+- Pygame
 - NumPy
 
 ---
 
-## 🎮 Gameplay
-
-1. Launch the game
-2. Select mode:
-   - Press **T** for Tap
-   - Press **P** for Punch
-3. Hit targets on beat
-4. Score increases for successful hits
-
----
-
-## 🛠 Installation
-
-Clone repository:
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/saucy-dev/beat-tapper-game.git
