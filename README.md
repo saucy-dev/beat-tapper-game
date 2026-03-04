@@ -260,7 +260,7 @@ numpy
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/beat-tapper-game.git
+git clone https://github.com/saucy-dev/beat-tapper-game.git
 cd beat-tapper-game
 
 # 2. Create a virtual environment
@@ -297,7 +297,7 @@ source ~/.config/fish/config.fish
 pyenv install 3.10.14
 
 # 4. Clone the repo and set local Python version
-git clone https://github.com/yourusername/beat-tapper-game.git
+git clone https://github.com/saucy-dev/beat-tapper-game.git
 cd beat-tapper-game
 pyenv local 3.10.14
 
@@ -321,7 +321,7 @@ source ~/.zshrc
 pyenv install 3.10.14
 
 # 3. Clone and setup
-git clone https://github.com/yourusername/beat-tapper-game.git
+git clone https://github.com/saucy-dev/beat-tapper-game.git
 cd beat-tapper-game
 pyenv local 3.10.14
 python -m venv venv
