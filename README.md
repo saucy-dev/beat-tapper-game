@@ -46,7 +46,7 @@
 
 ## 🎮 Overview
 
-Rhythm Hand Game is inspired by games like **osu!** — except instead of clicking circles with a mouse, you physically reach out and touch targets on screen using your **index fingers**, tracked in real time through your webcam.
+Beat Tapper is inspired by games like **osu!** — except instead of clicking circles with a mouse, you physically reach out and touch targets on screen using your **index fingers**, tracked in real time through your webcam.
 
 The game reads a song's BPM, calculates exactly when each beat will land, and spawns a target on screen `TARGET_LIFETIME` seconds **before** that beat. A shrinking white ring on each target acts as a visual countdown — when the ring disappears, the beat has arrived. Hit the target before it expires to score points.
 
@@ -60,12 +60,6 @@ No game engine. No external GUI framework. Just a webcam window and your hands.
 ---
 
 ## 📹 Demo
-
-> Record a short clip of yourself playing and drop it here.
-
-```
-[GIF or video preview here]
-```
 
 Game over screen example:
 
